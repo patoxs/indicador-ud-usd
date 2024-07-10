@@ -42,7 +42,7 @@ Este repositorio contiene una API desarrollada en Python utilizando Flask, dise√
 Para construir y ejecutar la aplicaci√≥n en un contenedor Docker:
 1. Construir la imagen Docker:
     ```bash
-    docker buildx build --platform linux/amd64 -t .
+    docker buildx build --platform linux/amd64 -t nombre-imagen .
     ```
 2. Ejecutar el contenedor:
     ```bash
