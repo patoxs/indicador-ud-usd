@@ -46,7 +46,7 @@ Para construir y ejecutar la aplicación en un contenedor Docker de forma local:
     ```
 2. Ejecutar el contenedor:
     ```bash
-    docker run -d --env-file .env nombre-imagen
+    docker run --platform linux/amd64 -d --env-file .env nombre-imagen
     ```
 
 ## Variables de Entorno
